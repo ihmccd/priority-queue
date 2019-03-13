@@ -24,11 +24,12 @@ class Node {
 		if (node==this.right){
 			this.right =null;
 		}
-		child.parent.removeChild(child);
+		this.child.parent=null;
 
 	}
 
 	remove() {
+		this.child.parent.removeChild(child);
 
 	}
 
