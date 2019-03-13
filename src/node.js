@@ -18,7 +18,7 @@ class Node {
 	}
 
 	removeChild(node) {
-		this.node==this.left?this.left=null:"";
+		node==this.left?this.left=null:"";
 
 
 
