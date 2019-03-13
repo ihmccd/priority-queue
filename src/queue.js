@@ -7,12 +7,12 @@ class PriorityQueue {
 		}
 
 	push(data, priority) {
-		this.heap.push(data, priority);
+		heap.push(data, priority);
 
 	}
 
 	shift() {
-		return this.heap.pop();
+		return heap.pop();
 
 	}
 
