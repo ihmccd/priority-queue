@@ -8,8 +8,8 @@ class MaxHeap {
 	}
 
 	push(data, priority) {
-		insertNode(new Node(data,priority));
-		shiftNodeUp(new Node(data,priority));
+		insertNode(Node(data,priority));
+		shifNodeUp(Node(data,priority));
 
 	}
 
@@ -45,7 +45,9 @@ class MaxHeap {
 	}
 
 	insertNode(node) {
-		
+		if (this.root.length==0){
+			this.root=node;
+		}
 	}
 
 	shiftNodeUp(node) {
