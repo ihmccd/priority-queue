@@ -24,7 +24,7 @@ class Node {
 		if (node==this.right){
 			this.right =null;
 		}
-		this.child.parent=null;
+
 
 	}
 
