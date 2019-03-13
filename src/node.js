@@ -18,12 +18,7 @@ class Node {
 	}
 
 	removeChild(node) {
-		if (node==this.left){
-			this.left =null;
-		}
-		if (node==this.right){
-			this.right =null;
-		}
+
 
 
 	}
