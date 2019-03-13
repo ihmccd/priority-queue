@@ -18,14 +18,14 @@ class Node {
 	}
 
 	removeChild(node) {
-		node==this.left?this.left=null:"";
+		let leftChild=data[this.priority*2];
 
 
 
 	}
 
 	remove() {
-		this.child.parent.removeChild(child);
+		
 
 	}
 

@@ -8,7 +8,9 @@ class MaxHeap {
 	}
 
 	push(data, priority) {
-
+		let node1=new Node(data, priority);
+		insertNode(node1);
+		shiftNodeUp(node1);
 
 	}
 
@@ -30,7 +32,7 @@ class MaxHeap {
 	}
 
 	isEmpty() {
-		this.root.length==0 ? "empty" :"";
+		
 	}
 
 	clear() {
